@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3539FE1292323EDE8B1281 /* libPods-TRZXProjectDetailCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B717B428DB39F11A83437322 /* libPods-TRZXProjectDetailCategory.a */; };
+		6D738D561E67EB4C00A20990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D551E67EB4C00A20990 /* main.m */; };
+		6D738D591E67EB4C00A20990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D581E67EB4C00A20990 /* AppDelegate.m */; };
+		6D738D5C1E67EB4C00A20990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D5B1E67EB4C00A20990 /* ViewController.m */; };
+		6D738D5F1E67EB4C00A20990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D738D5D1E67EB4C00A20990 /* Main.storyboard */; };
+		6D738D611E67EB4C00A20990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D738D601E67EB4C00A20990 /* Assets.xcassets */; };
+		6D738D641E67EB4C00A20990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D738D621E67EB4C00A20990 /* LaunchScreen.storyboard */; };
+		6D738D6F1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D6E1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.m */; };
+		6D738D7A1E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D791E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.m */; };
+		6D738D8A1E67ED4700A20990 /* CTMediator+TRZXProjectDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D738D891E67ED4700A20990 /* CTMediator+TRZXProjectDetail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D738D6B1E67EB4C00A20990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D738D491E67EB4C00A20990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D738D501E67EB4C00A20990;
+			remoteInfo = TRZXProjectDetailCategory;
+		};
+		6D738D761E67EB4C00A20990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D738D491E67EB4C00A20990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D738D501E67EB4C00A20990;
+			remoteInfo = TRZXProjectDetailCategory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3680981DF011989EFB3B10 /* Pods-TRZXProjectDetailCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXProjectDetailCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXProjectDetailCategory/Pods-TRZXProjectDetailCategory.release.xcconfig"; sourceTree = "<group>"; };
+		6D738D511E67EB4C00A20990 /* TRZXProjectDetailCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXProjectDetailCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D738D551E67EB4C00A20990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D738D571E67EB4C00A20990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D738D581E67EB4C00A20990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D738D5A1E67EB4C00A20990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D738D5B1E67EB4C00A20990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D738D5E1E67EB4C00A20990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D738D601E67EB4C00A20990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D738D631E67EB4C00A20990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D738D651E67EB4C00A20990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D738D6A1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXProjectDetailCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D738D6E1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailCategoryTests.m; sourceTree = "<group>"; };
+		6D738D701E67EB4C00A20990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D738D751E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXProjectDetailCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D738D791E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailCategoryUITests.m; sourceTree = "<group>"; };
+		6D738D7B1E67EB4C00A20990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D738D881E67ED4700A20990 /* CTMediator+TRZXProjectDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXProjectDetail.h"; sourceTree = "<group>"; };
+		6D738D891E67ED4700A20990 /* CTMediator+TRZXProjectDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXProjectDetail.m"; sourceTree = "<group>"; };
+		9F5AA2C5083CD02D6905835B /* Pods-TRZXProjectDetailCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXProjectDetailCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXProjectDetailCategory/Pods-TRZXProjectDetailCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		B717B428DB39F11A83437322 /* libPods-TRZXProjectDetailCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXProjectDetailCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D738D4E1E67EB4C00A20990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3539FE1292323EDE8B1281 /* libPods-TRZXProjectDetailCategory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D671E67EB4C00A20990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D721E67EB4C00A20990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203191FF3FA9973336C2F011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5AA2C5083CD02D6905835B /* Pods-TRZXProjectDetailCategory.debug.xcconfig */,
+				6A3680981DF011989EFB3B10 /* Pods-TRZXProjectDetailCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53535A78FE23B204158251F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B717B428DB39F11A83437322 /* libPods-TRZXProjectDetailCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D738D481E67EB4C00A20990 = {
+			isa = PBXGroup;
+			children = (
+				6D738D531E67EB4C00A20990 /* TRZXProjectDetailCategory */,
+				6D738D6D1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests */,
+				6D738D781E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests */,
+				6D738D521E67EB4C00A20990 /* Products */,
+				203191FF3FA9973336C2F011 /* Pods */,
+				53535A78FE23B204158251F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D738D521E67EB4C00A20990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D511E67EB4C00A20990 /* TRZXProjectDetailCategory.app */,
+				6D738D6A1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.xctest */,
+				6D738D751E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D738D531E67EB4C00A20990 /* TRZXProjectDetailCategory */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D871E67ECE100A20990 /* TRZXProjectDetailCategory */,
+				6D738D571E67EB4C00A20990 /* AppDelegate.h */,
+				6D738D581E67EB4C00A20990 /* AppDelegate.m */,
+				6D738D5A1E67EB4C00A20990 /* ViewController.h */,
+				6D738D5B1E67EB4C00A20990 /* ViewController.m */,
+				6D738D5D1E67EB4C00A20990 /* Main.storyboard */,
+				6D738D601E67EB4C00A20990 /* Assets.xcassets */,
+				6D738D621E67EB4C00A20990 /* LaunchScreen.storyboard */,
+				6D738D651E67EB4C00A20990 /* Info.plist */,
+				6D738D541E67EB4C00A20990 /* Supporting Files */,
+			);
+			path = TRZXProjectDetailCategory;
+			sourceTree = "<group>";
+		};
+		6D738D541E67EB4C00A20990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D551E67EB4C00A20990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D738D6D1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D6E1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.m */,
+				6D738D701E67EB4C00A20990 /* Info.plist */,
+			);
+			path = TRZXProjectDetailCategoryTests;
+			sourceTree = "<group>";
+		};
+		6D738D781E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D791E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.m */,
+				6D738D7B1E67EB4C00A20990 /* Info.plist */,
+			);
+			path = TRZXProjectDetailCategoryUITests;
+			sourceTree = "<group>";
+		};
+		6D738D871E67ECE100A20990 /* TRZXProjectDetailCategory */ = {
+			isa = PBXGroup;
+			children = (
+				6D738D881E67ED4700A20990 /* CTMediator+TRZXProjectDetail.h */,
+				6D738D891E67ED4700A20990 /* CTMediator+TRZXProjectDetail.m */,
+			);
+			path = TRZXProjectDetailCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D738D501E67EB4C00A20990 /* TRZXProjectDetailCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D738D7E1E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategory" */;
+			buildPhases = (
+				708410CD2C76BBFDBFCD74C0 /* [CP] Check Pods Manifest.lock */,
+				6D738D4D1E67EB4C00A20990 /* Sources */,
+				6D738D4E1E67EB4C00A20990 /* Frameworks */,
+				6D738D4F1E67EB4C00A20990 /* Resources */,
+				100B04A45C32680CDEAA7156 /* [CP] Embed Pods Frameworks */,
+				D8684CDD0652432AFEE914BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXProjectDetailCategory;
+			productName = TRZXProjectDetailCategory;
+			productReference = 6D738D511E67EB4C00A20990 /* TRZXProjectDetailCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D738D691E67EB4C00A20990 /* TRZXProjectDetailCategoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D738D811E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategoryTests" */;
+			buildPhases = (
+				6D738D661E67EB4C00A20990 /* Sources */,
+				6D738D671E67EB4C00A20990 /* Frameworks */,
+				6D738D681E67EB4C00A20990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D738D6C1E67EB4C00A20990 /* PBXTargetDependency */,
+			);
+			name = TRZXProjectDetailCategoryTests;
+			productName = TRZXProjectDetailCategoryTests;
+			productReference = 6D738D6A1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D738D741E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D738D841E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategoryUITests" */;
+			buildPhases = (
+				6D738D711E67EB4C00A20990 /* Sources */,
+				6D738D721E67EB4C00A20990 /* Frameworks */,
+				6D738D731E67EB4C00A20990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D738D771E67EB4C00A20990 /* PBXTargetDependency */,
+			);
+			name = TRZXProjectDetailCategoryUITests;
+			productName = TRZXProjectDetailCategoryUITests;
+			productReference = 6D738D751E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D738D491E67EB4C00A20990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					6D738D501E67EB4C00A20990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+					6D738D691E67EB4C00A20990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D738D501E67EB4C00A20990;
+					};
+					6D738D741E67EB4C00A20990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D738D501E67EB4C00A20990;
+					};
+				};
+			};
+			buildConfigurationList = 6D738D4C1E67EB4C00A20990 /* Build configuration list for PBXProject "TRZXProjectDetailCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D738D481E67EB4C00A20990;
+			productRefGroup = 6D738D521E67EB4C00A20990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D738D501E67EB4C00A20990 /* TRZXProjectDetailCategory */,
+				6D738D691E67EB4C00A20990 /* TRZXProjectDetailCategoryTests */,
+				6D738D741E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D738D4F1E67EB4C00A20990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D738D641E67EB4C00A20990 /* LaunchScreen.storyboard in Resources */,
+				6D738D611E67EB4C00A20990 /* Assets.xcassets in Resources */,
+				6D738D5F1E67EB4C00A20990 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D681E67EB4C00A20990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D731E67EB4C00A20990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		100B04A45C32680CDEAA7156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXProjectDetailCategory/Pods-TRZXProjectDetailCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708410CD2C76BBFDBFCD74C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8684CDD0652432AFEE914BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXProjectDetailCategory/Pods-TRZXProjectDetailCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D738D4D1E67EB4C00A20990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D738D5C1E67EB4C00A20990 /* ViewController.m in Sources */,
+				6D738D591E67EB4C00A20990 /* AppDelegate.m in Sources */,
+				6D738D8A1E67ED4700A20990 /* CTMediator+TRZXProjectDetail.m in Sources */,
+				6D738D561E67EB4C00A20990 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D661E67EB4C00A20990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D738D6F1E67EB4C00A20990 /* TRZXProjectDetailCategoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D738D711E67EB4C00A20990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D738D7A1E67EB4C00A20990 /* TRZXProjectDetailCategoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D738D6C1E67EB4C00A20990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D738D501E67EB4C00A20990 /* TRZXProjectDetailCategory */;
+			targetProxy = 6D738D6B1E67EB4C00A20990 /* PBXContainerItemProxy */;
+		};
+		6D738D771E67EB4C00A20990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D738D501E67EB4C00A20990 /* TRZXProjectDetailCategory */;
+			targetProxy = 6D738D761E67EB4C00A20990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D738D5D1E67EB4C00A20990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D738D5E1E67EB4C00A20990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D738D621E67EB4C00A20990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D738D631E67EB4C00A20990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D738D7C1E67EB4C00A20990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D738D7D1E67EB4C00A20990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D738D7F1E67EB4C00A20990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5AA2C5083CD02D6905835B /* Pods-TRZXProjectDetailCategory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D738D801E67EB4C00A20990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3680981DF011989EFB3B10 /* Pods-TRZXProjectDetailCategory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D738D821E67EB4C00A20990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXProjectDetailCategory.app/TRZXProjectDetailCategory";
+			};
+			name = Debug;
+		};
+		6D738D831E67EB4C00A20990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXProjectDetailCategory.app/TRZXProjectDetailCategory";
+			};
+			name = Release;
+		};
+		6D738D851E67EB4C00A20990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXProjectDetailCategory;
+			};
+			name = Debug;
+		};
+		6D738D861E67EB4C00A20990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXProjectDetailCategoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmwipo.TRZXProjectDetailCategoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXProjectDetailCategory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D738D4C1E67EB4C00A20990 /* Build configuration list for PBXProject "TRZXProjectDetailCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D738D7C1E67EB4C00A20990 /* Debug */,
+				6D738D7D1E67EB4C00A20990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D738D7E1E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D738D7F1E67EB4C00A20990 /* Debug */,
+				6D738D801E67EB4C00A20990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D738D811E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D738D821E67EB4C00A20990 /* Debug */,
+				6D738D831E67EB4C00A20990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D738D841E67EB4C00A20990 /* Build configuration list for PBXNativeTarget "TRZXProjectDetailCategoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D738D851E67EB4C00A20990 /* Debug */,
+				6D738D861E67EB4C00A20990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D738D491E67EB4C00A20990 /* Project object */;
+}

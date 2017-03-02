@@ -1,0 +1,7 @@
+TRZXProjectDetailCategory.xcodeproj/xcuserdata/
+TRZXProjectDetailCategory.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TRZXProjectDetailCategory.xcodeproj/project.xcworkspace/xcuserdata/
